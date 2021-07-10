@@ -1,7 +1,5 @@
 pipeline {
 
-  agent { label 'testpfe' }
-
   stages {
 
     stage('Checkout Source') {
